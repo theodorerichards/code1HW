@@ -5,7 +5,7 @@ String[] nouns;
 
 void setup() {
 
-  RiString rs = new RiString("the man denies himself love and unity because he is afraid of his past");
+  RiString rs = new RiString("Of Mans First Disobedience, and the Fruit Of that Forbidden Tree, whose mortal tast Brought Death into the World");
   rs.analyze();
   rs.toLowerCase();
 
