@@ -6,7 +6,8 @@ void setup() {
   textMode(CENTER);
   textAlign(CENTER);
   rg = new RiGrammar();
-  rg.addRule("<start>", "The <N> <V> first.");
+  rg.addRule("<start>", "The <N> <ADJ> <V> first.");
+  rg.addRule("<ADJ>", "always | never");
   rg.addRule("<N>", "man | woman");
   rg.addRule("<V>", "disobeys | begs");
   result = rg.expand();
